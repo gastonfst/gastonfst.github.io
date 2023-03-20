@@ -1,0 +1,46 @@
+.habilidades {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.habilidades-titulo {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-primario);
+    text-shadow: 2px 2px 2px white;
+}
+
+.habilidades-habilidad {
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 25);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+    color: var(--color-secundario);
+    background-color: var(--color-tema);
+}
+
+.habilidades-lista {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 950px) {
+
+    .habilidades-titulo {
+        font-size: 50px;
+    }
+    
+    .habilidades-habilidad {
+        font-size: 30px;
+        padding: 20px;
+    }
+    
+}

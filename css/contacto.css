@@ -1,0 +1,57 @@
+
+
+.contacto-clase {
+    align-items: center;
+    text-transform: uppercase;
+    
+    
+}
+
+.contacto-titulo {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-primario);
+    text-shadow: 2px 2px 2px white;
+}
+
+
+
+.contacto-iconos img {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    
+    
+}
+
+.contacto-iconos img:hover {
+    filter: brightness(150%);
+
+}
+
+.contacto-iconos {
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+@media (min-width: 950px) {
+
+    .contacto-iconos img {
+        width: 90px;
+        height: 90px;
+        margin: 70px;
+        
+    }
+
+    .contacto-titulo {
+        font-size: 50px;
+        margin: 35px 0;
+    }
+        
+
+}

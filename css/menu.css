@@ -1,0 +1,58 @@
+:root {
+    --color-tema: rgb(165, 160, 200);
+    --color-primario: rgb(8, 0, 240);
+    --color-secundario: rgb(242, 255, 0);
+    --color-texto-inverso: rgb(255, 255, 255);
+    --color-texto: rgb(0, 0, 0);
+    --navbar-sombra: #e5e5e5;
+    --menu-movil-color-fondo: #3a4460;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-tema);
+    background-image: url("https://images8.alphacoders.com/559/559128.jpg" );
+    background-repeat: repeat-y;
+    background: opacity 0.01;
+    background-size: 100%;
+    color: var(--color-texto);
+    padding-top: 90px;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+.horizonta-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 950px) {
+
+    .horizonta-padding {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .vertical-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}

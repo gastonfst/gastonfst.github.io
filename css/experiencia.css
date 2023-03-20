@@ -1,0 +1,69 @@
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.experiencia-cuerpo {
+    background-color: var(--color-tema);
+    color: var(--color-texto-inverso);
+    text-align: center;
+    border-style:groove;
+
+}
+
+.experiencia-titulo {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+}
+
+.experiencia-fecha {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--color-secundario);
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.experiencia-compania {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.experiencia-puesto {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+@media (min-width: 950px) {
+    
+    .experiencia-titulo {
+        font-size: 50px;
+        margin: 35px 0;
+    }
+    
+    .experiencia-fecha {
+        font-size: 40px;
+    }
+    
+    .experiencia-compania {
+        margin-top: 25px;
+    }
+    
+    .experiencia-puesto {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+}
+
+
